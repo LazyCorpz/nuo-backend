@@ -1,3 +1,6 @@
 spring:
   application:
     name: nuo-backend
+
+server:
+  port: 0
