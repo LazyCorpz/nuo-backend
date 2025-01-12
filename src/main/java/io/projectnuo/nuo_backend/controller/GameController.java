@@ -1,4 +1,3 @@
 package io.projectnuo.nuo_backend.controller;
 
-public class GameController {
-}
+public class GameController {}

@@ -1,9 +1,8 @@
 package io.projectnuo.nuo_backend.model;
 
 import io.projectnuo.nuo_backend.enums.PlayerStatus;
-import lombok.Data;
-
 import java.util.List;
+import lombok.Data;
 
 @Data
 public class Player {

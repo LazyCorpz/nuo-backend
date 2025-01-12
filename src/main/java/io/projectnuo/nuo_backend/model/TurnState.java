@@ -7,5 +7,4 @@ public class TurnState {
     private int currentRound = 0;
     private boolean reversed = false;
     private Player currentPlayer;
-
 }

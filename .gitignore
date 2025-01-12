@@ -3,14 +3,13 @@
 # IntelliJ IDE
 /.idea
 
-# testing
-/coverage
+# Node dependencies
+**/node_modules
 
-# build
-/build
-/dist
-
-# secrets
+# Secrets
 .env
 .env.*
 secrets.*.js
+
+# Testing
+/coverage

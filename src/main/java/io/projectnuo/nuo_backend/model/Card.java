@@ -14,10 +14,14 @@ public class Card {
 
     public void validate() {
         if (type == CardType.NUMBER && number == null) {
-            throw new IllegalArgumentException("Number must not be null for NUMBER cards.");
+            throw new IllegalArgumentException(
+                    "Number must not be null for NUMBER cards.");
         }
-        if ((type == CardType.WILD || type == CardType.WILD_DRAW_FOUR) && color != CardColor.BLACK) {
-            throw new IllegalArgumentException("Color must be BLACK for WILD and WILD_DRAW_FOUR until assigned during gameplay.");
+
+        if ((type == CardType.WILD || type == CardType.WILD_DRAW_FOUR) &&
+                color != CardColor.BLACK) {
+            throw new IllegalArgumentException(
+                    "Color must be BLACK for WILD and WILD_DRAW_FOUR until assigned during gameplay.");
         }
     }
 }

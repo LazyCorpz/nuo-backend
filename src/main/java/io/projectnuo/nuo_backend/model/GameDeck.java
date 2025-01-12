@@ -2,11 +2,10 @@ package io.projectnuo.nuo_backend.model;
 
 import io.projectnuo.nuo_backend.enums.CardColor;
 import io.projectnuo.nuo_backend.enums.CardType;
-import lombok.Data;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import lombok.Data;
 
 @Data
 public class GameDeck {
@@ -15,6 +14,7 @@ public class GameDeck {
 
     public void createDeck() {
         drawPile = new ArrayList<>();
+
         for (CardColor color : CardColor.values()) {
             if (!color.equals(CardColor.BLACK)) {
                 drawPile.add(new Card(CardType.NUMBER, color, 0));
@@ -30,10 +30,13 @@ public class GameDeck {
                 drawPile.add(new Card(CardType.DRAW_TWO, color, null));
             }
         }
+
         for (int i = 0; i < 4; i++) {
             drawPile.add(new Card(CardType.WILD, CardColor.BLACK, null));
-            drawPile.add(new Card(CardType.WILD_DRAW_FOUR, CardColor.BLACK, null));
+            drawPile.add(
+                    new Card(CardType.WILD_DRAW_FOUR, CardColor.BLACK, null));
         }
+
         shuffleDeck();
     }
 

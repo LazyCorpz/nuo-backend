@@ -1,11 +1,10 @@
 package io.projectnuo.nuo_backend.model;
 
 import io.projectnuo.nuo_backend.enums.GameStatus;
-import lombok.Data;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import lombok.Data;
 
 @Data
 public class GameState {

@@ -1,0 +1,24 @@
+{
+    "name": "nuo-backend",
+    "version": "0.0.1",
+    "description": "Server-side app for Project-Nuo. Built with Java and Spring Boot.",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LazyCorpz/nuo-backend.git"
+    },
+    "author": "LazyCorpz",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/LazyCorpz/nuo-backend/issues"
+    },
+    "homepage": "https://github.com/LazyCorpz/nuo-backend#readme",
+    "readme": "README.md",
+    "devDependencies": {
+        "prettier": "^3.4.2",
+        "prettier-plugin-java": "^2.6.6"
+    }
+}
