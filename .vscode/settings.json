@@ -1,0 +1,15 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "editor.tabSize": 4,
+    // Forcing language default overrides
+    "[yaml]": {
+        "editor.tabSize": 4
+    },
+    "[dockercompose]": {
+        "editor.tabSize": 4
+    },
+    "prettier.configPath": ".prettierrc"
+}

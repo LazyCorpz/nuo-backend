@@ -1,2 +1,16 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
 
+# IntelliJ IDE
 /.idea
+
+# testing
+/coverage
+
+# build
+/build
+/dist
+
+# secrets
+.env
+.env.*
+secrets.*.js
